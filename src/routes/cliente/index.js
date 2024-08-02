@@ -7,7 +7,7 @@ const conn = mysql.createConnection({
     host: 'localhost',
     database: 'dbapicarros',
     user: 'root',
-    password: 'rootadmin'
+    password: ''
 });
 
 router.get('/listar', function (req, res) {
